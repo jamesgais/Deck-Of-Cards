@@ -1,3 +1,4 @@
+import time
 from deck import Deck
 
 def main():  # DO NOT MODIFY MAIN
