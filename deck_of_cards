@@ -1,44 +1,4 @@
-import time
-
-class Card():
-
-    def __init__(self, suit, rank):
-        self.__suit = suit
-        self.__rank = rank
-
-    def __str__(self):
-        return f"{self.__suit} {self.__rank}"
-    
-    def __repr__(self):
-        return "Techinical data"
-
-
-
-
-
-class Deck():
-    
-    def __init__(self):
-        self.__deck = []
-        for suit in ("hearts",'diamonds','spades','clubs'):
-            for rank in ('2','3','4','5','6','7','8','9','10','jack','queen','king','ace'):
-                self.__deck.append(Card(suit, rank))
-
-
-
-    def printDeck(self):
-        for card in self.__deck:
-            print(card)
-
-    def __str__(self):
-        cards = ""
-        for items in self.__deck:
-            cards = cards + items.__str__() +'\n'
-        return cards
-
-
-    
-    
+import deck as Deck
 
 def main():  # DO NOT MODIFY MAIN
 #you may comment sectios out until you are working on them.
