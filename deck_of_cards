@@ -9,7 +9,7 @@ def main():  # DO NOT MODIFY MAIN
 
 #This portion of code prints out the deck in the order that it was created
     print("<--- Deck printed in order it was build --->")
-    print(deck1.__repr__())
+    print(deck1)
     print()
     time.sleep(2)
 
