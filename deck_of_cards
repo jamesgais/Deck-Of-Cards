@@ -1,4 +1,4 @@
-import deck as Deck
+from deck import Deck
 
 def main():  # DO NOT MODIFY MAIN
 #you may comment sectios out until you are working on them.
